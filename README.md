@@ -4,9 +4,9 @@ Animal Identifier RFID Reader Widget for HC-06 chipset
 # How to use it
 1. This Widget use package `flutter_bluetooth_serial` started by @github/Edufolly. Please follow the instructions provided to use this package.
 
-2. Add `BluetoothHelper.dart` and `ChipFormField.dart` to yopur projet.
+2. Add `BluetoothHelper.dart` and `ChipFormField.dart` to your projet.
 
-3. Create a new ChipFormField widget to get an animal identifier and add it to your layout
+3. Create a new ChipFormField widget and add it to your layout
 ```
 ChipFormField _chipFormField = ChipFormField(context, 'HC-06', (chip) {
       print('CHIP: ' + chip);
@@ -15,7 +15,7 @@ ChipFormField _chipFormField = ChipFormField(context, 'HC-06', (chip) {
 
 4. Use `_chipFormField.chip` to get the animal identifier whenever needed
 
-That's it.
+5. That's it.
 
 # Example
 ```
