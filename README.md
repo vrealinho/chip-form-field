@@ -2,7 +2,7 @@
 Animal Identifier RFID Reader Widget for HC-06 chipset
 
 # How to use it
-This Widget use package `flutter_bluetooth_serial` started by `Edufolly`. Please follow the instructions provided to use this package.
+1. This Widget use package `flutter_bluetooth_serial` started by @github/Edufolly. Please follow the instructions provided to use this package.
 
 2. Add `BluetoothHelper.dart` and `ChipFormField.dart` to yopur projet.
 
@@ -67,3 +67,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+
+Widget |  Connecting to reader  |  Reading chip  |
+:---:|:---:|:---:|
+![](https://github.com/vrealinho/chip-form-field/blob/master/screenshots/screen1.png?raw=true)  |  ![](https://github.com/vrealinho/chip-form-field/blob/master/screenshots/screen2.png?raw=true)  |  ![](https://github.com/vrealinho/chip-form-field/blob/master/screenshots/screen4.png?raw=true)
+
